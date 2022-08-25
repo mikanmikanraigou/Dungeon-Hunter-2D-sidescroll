@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Menu Button SFX
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":419.917,"y":96.7169},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-147.0,"y":-54.0},"guid":"051ce75b-59e4-487b-91a8-ddfe521bfc88","$version":"A","$type":"Bolt.OnButtonClick","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Play
+      Click","$type":"System.String"},"target":null},"position":{"x":72.0,"y":-48.0},"guid":"ec6fe828-7bb2-4d78-a6bd-ad44e1946e61","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"11"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Play
+      Hover","$type":"System.String"},"target":null},"position":{"x":611.0,"y":-63.0},"guid":"53dd30bf-7226-4cea-aee4-fe796dca643d","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"13"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":335.0,"y":-103.0},"guid":"11be26f8-5dc1-4ac0-807c-7ec2e27d922b","$version":"A","$type":"Bolt.OnPointerEnter","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"SFX 
+      Manager","$type":"System.String"}},"position":{"x":-144.0,"y":105.0},"guid":"fca1a4b8-bda3-4005-879c-28972cdb5d64","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"SFX 
+      Manager","$type":"System.String"}},"position":{"x":339.0,"y":57.0},"guid":"fdf2dd6a-5e9d-41ce-9607-a3a39f259fd3","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"909af8c8-397e-4c4b-a081-b21a6178e29b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"2245a854-62e6-43b2-95f4-51f1891e13ce","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"f2532322-6720-41a4-8780-1a6b5bc91605","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"f3373409-b2dc-43bb-987e-05068e4f069d","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

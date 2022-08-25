@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Platform
+  - Enemies
+  - Invincible
+  - Player
+  - Projectiles
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Backgound1
+    uniqueID: 781036717
+    locked: 0
+  - name: Background2
+    uniqueID: 948599251
+    locked: 0
+  - name: Background3
+    uniqueID: 597905997
+    locked: 0
+  - name: Background4
+    uniqueID: 3766421559
+    locked: 0
+  - name: Player
+    uniqueID: 3333317291
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Main Menu
+    uniqueID: 3661955563
+    locked: 0
+  - name: menu
+    uniqueID: 2833575553
+    locked: 0
